@@ -1,9 +1,9 @@
-Section 12. Objects
+Section  Objects
 ===================== 
 
-12.01. Real Life Objects
+01. Real Life Objects
 ---------------------
-12.01. Object Properties and Method examples
+01. Object Properties and Method examples
 ---------------------
 
 - In real life almost `everything is an object`. 
@@ -20,9 +20,9 @@ Section 12. Objects
 > **Note**: <br/>
 As a practice think of any other object in your surrounding and list down its Properties and Methods
 
-12.02. What is an Object?
+02. What is an Object?
 ---------------------
-12.02. What are the Objects?
+02. What are the Objects?
 ---------------------
 
 - JavaScript is an `object-based language` and in JavaScript, almost everything is an object or acts like/as an object
@@ -43,7 +43,7 @@ There are 3 main ways to construct an object:
 2. By creating an `instance` of Object directly (using `new` keyword)
 3. By using an `Object constructor` (using `new` keyword)
 
-12.03. Object literal
+03. Object literal
 ---------------------
 
 - The simplest way to create an object in JavaScript is enclosing a `comma-separated list of properties:values and methods in curly braces { }`
@@ -109,9 +109,9 @@ VehicleObj1.keyStart();
 console.log('// ------------------------------');
 ```
 
-12.04. Creating an instance of Object directly
+04. Creating an instance of Object directly
 ---------------------
-12.04. Creating an instance of object directly (using the new keyword)
+04. Creating an instance of object directly (using the new keyword)
 ---------------------
 
 - Array instance can be created using the `new` keyword `new Array() with or without passing arguments/properties-methods` in constructor
@@ -181,9 +181,9 @@ VehicleObj1.keyStart();
 console.log('// ------------------------------');
 ```
 
-12.05. Object constructor
+05. Object constructor
 ---------------------
-12.05. Object constructor (using the new keyword)
+05. Object constructor (using the new keyword)
 ---------------------
 
 - In this method, create a function with arguments 
@@ -222,9 +222,9 @@ Maruti.keyStart();
 console.log('// ------------------------------');
 ```
 
-12.06. Accessing objects properties
+06. Accessing objects properties
 ---------------------
-12.06. Looping through Objects properties
+06. Looping through Objects properties
 ---------------------
 
 - To access or get the value of a property, you can use the `dot .`, or `square bracket []` notation
@@ -258,7 +258,7 @@ for (props in Person) {
 console.log('// ------------------------------');
 ```
 
-12.07. Removing Deleting objects properties
+07. Removing Deleting objects properties
 ---------------------
 
 - The `delete` operator can be used to completely remove properties from an object
@@ -287,7 +287,7 @@ console.log(Person.name);
 console.log(Person['domain']);
 ```
 
-12.08. Manipulating by Value Vs Reference
+08. Manipulating by Value Vs Reference
 ---------------------
 
 In JavaScript we have two categories of types:
@@ -315,7 +315,7 @@ In JavaScript we have two categories of types:
 
 ```
 
-12.09. The Window object 
+09. The Window object 
 ---------------------
 
 - Window Object the global variable/global object `available in the browser environment`, represents the browser window in which the script is running
@@ -388,7 +388,7 @@ window.navigator.vendor;
 
 ```
 
-12.10. The Math Object
+10. The Math Object
 ---------------------
 
 - The Math object allows to perform mathematical tasks
@@ -420,7 +420,7 @@ console.log(Math.floor(Math.random() * 20 + 1)); // random number till 20 withou
 
 ```
 
-12.11. Date and Time
+11. Date and Time
 =====================
 
 - The Date object is used to deal/work with date and time
