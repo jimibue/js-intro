@@ -1,6 +1,6 @@
-Section 10. Conditions
+Section  Conditions
 =====================
-Section 10. Conditions - Control Flow
+Section  Conditions - Control Flow
 =====================
 
 - Conditional statements are used to perform different action based on different condition
@@ -15,9 +15,9 @@ Section 10. Conditions - Control Flow
 3. If...else if...else Statement
 4. Switch...Case Statement
 
-10.01. The if statement
+01. The if statement
 ---------------------
-10.01. The if statement and comparison operators
+01. The if statement and comparison operators
 ---------------------
 
 - If the conditional statement is the simplest and basic control statement make decisions and execute statements conditionally
@@ -29,7 +29,6 @@ If conditional statements are used to evaluate some kind of condition and do som
 > **Note**: <br/>
 Use `if` to specify a block of code to be executed, `if a specified condition is true`
 
-> **Syntax & Example**: `10.01.01.script.js`
 ```javascript
 // if conditional statement
 
@@ -74,9 +73,9 @@ if(currentHours >=6 && currentHours < 12) {
 }
 ```
 
-10.02. The if else statement
+02. The if else statement
 ---------------------
-10.02. The if...else statement
+02. The if...else statement
 ---------------------
 
 - The JavaScript `if...else statement` is used to execute the code `weather condition is true or false`
@@ -87,7 +86,6 @@ if(currentHours >=6 && currentHours < 12) {
 > **Note**: <br/>
 Use `else` to specify a block of code to be executed, `if the same condition is false`
 
-> **Syntax & Example**: `10.02.01.script.js`
 ```javascript
 // if...else conditional statement
 
@@ -133,9 +131,9 @@ if(currentHours < 12) {
 }
 ```
 
-10.03. The if else if else statement
+03. The if else if else statement
 ---------------------
-10.03. The if...else, if...else statement
+03. The if...else, if...else statement
 ---------------------
 
 - The `if...else if...else` a special statement that is used to `combine multiple if...else statements`
@@ -144,7 +142,7 @@ if(currentHours < 12) {
 > **Note**: <br/>
 Use `else if` to specify a new condition to test, `if the first condition is false`
 
-> **Syntax & Example**: `10.03.01.script.js`
+> **Syntax & Example**: `03.01.script.js`
 ```javascript
 // If...else if...else conditional statement
 
@@ -195,9 +193,9 @@ if(currentHours >=6 && currentHours< 12) {
 }
 ```
 
-10.04. The switch case statement
+04. The switch case statement
 ---------------------
-10.04. The switch...case statement
+04. The switch...case statement
 ---------------------
 
 - The switch...case statement is alternative to an if...else if...else statement, both do almost the same thing
@@ -207,7 +205,6 @@ if(currentHours >=6 && currentHours< 12) {
 > **Note**: <br/>
 Use `switch` to specify many `alternative blocks of code to be executed`
 
-> **Syntax & Example**: `10.04.01.script.js`
 ```javascript
 // switch...case conditional statement
 
